@@ -5,4 +5,5 @@ Il programma dovrà chiedere all'utente il numero di chilometri che vuole percor
 //3 - Calcora prezzo del viaggio.
     //3.1 - Moltiplicare il numero dei km per 0.21.
     //3.2 - Applicare eventuali sconti del 20% o 40% rispettivamente per under 18 o over 65.
-//4 - Visualizzare in forma umana l'output del prezzo finale.
+//4 - Arrotondare risultato in due cifre decimali
+//5 - Visualizzare in forma umana l'output del prezzo finale.

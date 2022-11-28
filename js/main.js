@@ -5,7 +5,8 @@
 //3 - Calcora prezzo del viaggio.
     //3.1 - Moltiplicare il numero dei km per 0.21.
     //3.2 - Applicare eventuali sconti del 20% o 40% rispettivamente per under 18 o over 65.
-//4 - Visualizzare in forma umana l'output del prezzo finale.
+//4 - Arrotondare risultato in due cifre decimali
+//5 - Visualizzare in forma umana l'output del prezzo finale.
 
 //1
 let km = prompt('Quanti kilometri dovrai viaggiare?');
@@ -18,12 +19,12 @@ console.log(prezzo)
 //3.2
 if ( eta < 18)
 {
-    let prezzo_sconto_un = prezzo * 0.8
-    console.log(prezzo_sconto_un)
+    let prezzo_scontato = prezzo * 0.8
+    console.log(prezzo_scontato)
 }
 
 else if ( eta > 65)
 {
-    let prezzo_sconto_ov = prezzo * 0.6
-    console.log(prezzo_sconto_ov)
+    let prezzo_scontato = prezzo * 0.6
+    console.log(prezzo_scontato)
 }
