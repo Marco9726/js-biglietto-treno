@@ -15,7 +15,7 @@ let eta = prompt('Qual è la tua età?');
 //3
 //3.1
 let prezzo = km * 0.21;
-console.log(prezzo)
+let messaggio =`Il prezzo del biglietto è pari a: ${prezzo}`;
 //3.2
 if ( eta < 18)
 {
@@ -28,3 +28,5 @@ else if ( eta > 65)
     prezzo = (prezzo * 0.6).toFixed(2);
     console.log(prezzo)
 }
+
+document.getElementById('Prezzo').innerHTML = `Il prezzo del tuo biglietto è: ` + prezzo +`€`;
