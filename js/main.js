@@ -19,12 +19,12 @@ console.log(prezzo)
 //3.2
 if ( eta < 18)
 {
-    let prezzo_scontato = prezzo * 0.8
-    console.log(prezzo_scontato)
+    prezzo = (prezzo * 0.8).toFixed(2);
+    console.log(prezzo)
 }
 
 else if ( eta > 65)
 {
-    let prezzo_scontato = prezzo * 0.6
-    console.log(prezzo_scontato)
+    prezzo = (prezzo * 0.6).toFixed(2);
+    console.log(prezzo)
 }
